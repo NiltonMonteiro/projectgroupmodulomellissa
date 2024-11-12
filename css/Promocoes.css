@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #041829;
+    color: #fff;
+    padding: 18px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #444;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+h1{
+    color: #d1e0f0;
+    font-size: 52.8px;
+
+
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#promocoes {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+.promocao {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+.promocao img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.promocao .descricao {
+    max-width: 600px;
+}
+
+.promocao .descricao h3 {
+    margin: 0 0 10px;
+}
+
+.promocao .descricao .preco {
+    font-weight: bold;
+    color: #c00;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.comprar-btn {
+    background-color: #6164ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  
+  .comprar-btn:hover {
+    background-color: #0db938;
+    transform: scale(1.05);
+  }
+  .imagem-principal {
+    max-width: 1000%;
+    height: 1000px;
+    width: 10000spx;
+    margin-top: 0rem;
+  }
+  .imagem-principal {
+    max-width: 1000%;
+    height: 1000px;
+    width: 10000spx;
+    margin-top: 0rem;
+  }
